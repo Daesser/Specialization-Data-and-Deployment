@@ -112,7 +112,7 @@ async function run() {
 	init();
 	alert("Training is done, try classifying your handwriting!");
 }
-
+// Call run function when document is loaded
 document.addEventListener('DOMContentLoaded', run);
 
 
